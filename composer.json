@@ -1,0 +1,21 @@
+{
+  "name": "hyneks/faker-provider-administrative-units-czech-republic",
+  "description": "A custom provider for regions, districts, municipalities and cadastral territories of Czechia",
+  "type": "library",
+  "require": {
+    "php": "^7.4|^8.0",
+    "fakerphp/faker": "^1.20"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hyneks\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "HynekS",
+      "email": "hyneksvacha@seznam.cz"
+    }
+  ]
+}
