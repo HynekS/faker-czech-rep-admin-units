@@ -13,7 +13,7 @@ Then:
 <?php
 require_once 'vendor/autoload.php';
 
-use Hyneks\AdministrativeUnitsCzechRepublic;
+use HynekS\AdministrativeUnitsCzechRepublic;
 
 $faker = \Faker\Factory::create();
 $faker->addProvider(new AdministrativeUnitsCzechRepublic($faker));
