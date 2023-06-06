@@ -4,7 +4,7 @@ A Faker module for generating a hierarchy of Czech Republic administrative units
 
 ## Usage
 
-Install faker:
+Install the package:
 
 ```bash
 composer require hyneks/faker-provider-administrative-units-czech-republic
