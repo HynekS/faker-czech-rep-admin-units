@@ -7,7 +7,7 @@ A Faker module for generating a hierarchy of Czech Republic administrative units
 Install faker:
 
 ```bash
-composer require fakerphp/faker
+composer require hyneks/faker-provider-administrative-units-czech-republic
 ```
 
 Then:
@@ -22,7 +22,6 @@ $faker = \Faker\Factory::create();
 $faker->addProvider(new AdministrativeUnitsCzechRepublic($faker));
 
 print_r($faker->hierarchy());
-
 
 /*
 * Array
