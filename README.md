@@ -1,12 +1,15 @@
 # faker-czech-rep-admin-units
+
 A Faker module for generating a hierarchy of Czech Republic administrative units: Region > County > Municipality > Cadastral territory.
 
 ## Usage
 
 Install faker:
-```
+
+```bash
 composer require fakerphp/faker
 ```
+
 Then:
 
 ```php
@@ -19,4 +22,15 @@ $faker = \Faker\Factory::create();
 $faker->addProvider(new AdministrativeUnitsCzechRepublic($faker));
 
 print_r($faker->hierarchy());
+
+
+/*
+* Array
+*(
+*    [region] => Jihomoravský kraj
+*    [district] => Blansko
+*    [municipality] => Crhov
+*    [cadastral_territory] => Crhov u Olešnice
+*)
+*/
 ```
